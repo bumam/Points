@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  &__buttonTextBlock {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  &__imageBlock {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
