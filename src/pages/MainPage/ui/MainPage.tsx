@@ -10,6 +10,6 @@ const MainPage = () => {
       })}
     </div>
   );
-}; /* Rectangle 5957 */
+};
 
 export default MainPage;
