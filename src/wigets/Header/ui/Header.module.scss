@@ -1,0 +1,14 @@
+@import "app/styles/variabels/global";
+
+.Header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+
+  &__hr {
+    border: 1px solid $main-border-color;
+    width: 100%;
+    height: fit-content;
+  }
+}

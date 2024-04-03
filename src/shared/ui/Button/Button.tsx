@@ -1,10 +1,10 @@
 import React, { FC } from "react";
-import s from "./button.module.scss";
+import s from "./Button.module.scss";
 
 type ButtonProps = {
   onClick: React.MouseEventHandler<HTMLButtonElement>;
   text: string;
-  type: any
+  type: any;
 };
 
 export const Button: FC<ButtonProps> = ({ onClick, text, type }) => {

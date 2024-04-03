@@ -2,8 +2,16 @@
 @import 'variabels/global';
 
 .app {
-  font-size: var(--font-m);
-  background: var(--bg-color);
-  color: var(--primary-color);
+  font-size: $font-size-m;
+  background: $main-background;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
 }

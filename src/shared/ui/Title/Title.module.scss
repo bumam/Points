@@ -1,0 +1,27 @@
+@import "app/styles/variabels/global";
+
+.Title {
+  padding: 0;
+  margin: 0;
+
+  &__main {
+    font-size: $font-size-xl;
+    line-height: $font-size-xl;
+    color: $primary-title-color;
+    margin-bottom: 20px;
+  }
+
+  &__secondary {
+    font-size: $font-size-l;
+    line-height: $font-size-l;
+    color: $secondary-title-color;
+    margin-bottom: 20px;
+  }
+
+  &__third {
+    font-size: $font-size-m;
+    line-height: $font-size-m;
+    color: $third-title-color;
+    margin-bottom: 10px;
+  }
+}
