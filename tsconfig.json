@@ -1,14 +1,20 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "es6",
+    "outDir": "./docs/",
     "target": "es5",
+    "noImplicitAny": true,
+    "module": "ESNext",
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "./src/*"
+      ]
+    }
   },
   "ts-node": {
     "compilerOptions": {

@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bumam/Points.git"
+    "url": "git+https://github.com/bumam/Slava-RZHD.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bumam/Points/issues"
+    "url": "https://github.com/bumam/Slava-RZHD/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -65,23 +65,13 @@
     "loki": "^0.28.1",
     "mini-css-extract-plugin": "^2.5.3",
     "prettier": "3.2.5",
-    "reg-cli": "^0.17.6",
-    "regenerator-runtime": "^0.13.9",
-    "sass": "^1.49.9",
-    "sass-loader": "^12.6.0",
-    "style-loader": "^3.3.1",
-    "stylelint": "^14.5.3",
-    "stylelint-config-standard-scss": "^3.0.0",
-    "ts-loader": "^9.2.6",
-    "ts-node": "^10.5.0",
-    "typescript": "^4.5.5",
-    "webpack": "^5.69.1",
-    "webpack-bundle-analyzer": "^4.5.0",
-    "webpack-cli": "^4.9.2",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "ts-loader": "^9.5.1",
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.8.0",
     "axios": "^0.26.1",
     "concurrently": "^7.0.0",
     "i18next": "^21.6.11",
@@ -90,7 +80,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.5",
-    "react-redux": "^7.2.6",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.2.1",
+    "style-loader": "^3.3.4"
   }
 }
