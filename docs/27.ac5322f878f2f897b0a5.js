@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproduction_project_code_course=self.webpackChunkproduction_project_code_course||[]).push([[27],{27:(e,c,o)=>{o.r(c),o.d(c,{default:()=>s});var r=o(893);const s=function(){return(0,r.jsx)("div",{children:"Persons page"},void 0)}}}]);
