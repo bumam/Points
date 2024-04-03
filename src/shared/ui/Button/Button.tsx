@@ -4,13 +4,13 @@ import s from "./Button.module.scss";
 type ButtonProps = {
   onClick: React.MouseEventHandler<HTMLButtonElement>;
   text: string;
-  type: any;
+  type?: any;
 };
 
 export const Button: FC<ButtonProps> = ({ onClick, text, type }) => {
   return (
-    <button className={s.btn} onClick={onClick}>
-        {text}
+    <button className={s.Button} onClick={onClick}>
+      {text}
     </button>
   );
 };

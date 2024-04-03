@@ -1,14 +1,15 @@
 import React from "react";
 import s from "./MainPage.module.scss";
-import { MainCard } from "wigets/MainCard";
+import { MainCard, MainCardData } from "wigets/MainCard";
 
 const MainPage = () => {
   return (
     <div className={s.MainPage}>
-      <MainCard className={s.MainPage__card} />
-      <MainCard className={s.MainPage__card} />
+      {MainCardData.map((item) => {
+        return <MainCard className={s.MainPage__card} data={item} />;
+      })}
     </div>
   );
-};
+}; /* Rectangle 5957 */
 
 export default MainPage;
